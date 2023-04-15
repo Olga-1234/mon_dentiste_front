@@ -1,0 +1,18 @@
+.bg1{
+    background-color: #FCDABA;
+    border-radius: 10%;
+}
+@media (max-width: 600px){
+    .pResp{
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+
+    }
+    .widthResp{
+        width: 10px;
+    }
+    .fontSize{
+        font-size: 16px !important;
+    }
+
+}

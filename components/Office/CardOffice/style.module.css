@@ -1,0 +1,60 @@
+.boxshadow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nonetext{
+    text-decoration:none !important;
+    color: black;
+    border: solid 1px red;
+}
+
+@media (max-width : 600px) {
+    .respensiveReverse {
+     display: flex;
+     flex-direction:column-reverse;
+     height: auto;
+    }
+    .respensive {
+        display: flex;
+        flex-direction:column;
+        height: auto;
+       }
+       .boxshadow{
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    }
+    .respensiveCard1{
+        display: flex;
+        justify-content: center;
+        width: 100%;   
+    }
+    .respensiveCard2{
+        display: flex;
+    justify-content:flex-end;
+        width: 100%; 
+    }
+    .respensivemarginTop{
+        margin-top: 50px;
+        
+    }
+    .respensivepadding{
+    padding-left: 15px ;
+    padding-right: 10px;
+    }
+    .respensivemarginLefRight{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+   
+}
+.bdlink{
+    background: #44B2A7;
+    color: #FFFFFF !important;
+    border-radius: 10px !important; 
+    border: solid 1px #44B2A7 !important;
+    
+}
+.bdlink:hover
+{
+    background:transparent;
+    color: #44B2A7 !important;
+
+}

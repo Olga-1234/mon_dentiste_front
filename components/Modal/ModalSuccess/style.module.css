@@ -1,0 +1,43 @@
+.bdnone{
+    border: none !important;
+    /* background-color: transparent !important; */
+    background-color: #FFFFFF !important;
+
+
+
+}
+.bdnone:focus {
+    outline:  none !important;
+}
+.bdred{
+    background: red;
+    color: #FFFFFF !important;
+    border-radius: 10px !important; 
+    border: none !important;
+    
+}
+.bdred:focus {
+    outline:  none !important;
+}
+.bdred:hover
+{
+    background:transparent;
+    border: solid 1px red !important;
+    color: red !important;
+}
+
+.bdgreen{
+    background: green;
+    color: #FFFFFF !important;
+    border-radius: 10px !important; 
+    border: none !important; 
+}
+.bdgreen:focus {
+    outline:  none !important;
+}
+.bdgreen:hover
+{
+    background:transparent;
+    color: green !important;
+    border:  solid 1px green !important;
+}

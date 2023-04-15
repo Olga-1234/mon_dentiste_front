@@ -1,0 +1,26 @@
+// {
+//   "root": true,
+//   "extends": ["next/core-web-vitals", "eslint:recommended", "next", "prettier"],
+//   "plugins": ["testing-library"],
+//   "overrides": [
+//       // Only uses Testing Library lint rules in test files
+//       {
+//           "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
+//           "extends": ["plugin:testing-library/react"]
+//       }
+//   ],
+//   "rules": {
+//       "no-unused-vars": "off",
+//       "@next/next/no-img-element": "off",
+//       "@next/next/no-html-link-for-pages": "warn",
+//       "react/no-unescaped-entities": "warn",
+//       "no-undef": "warn",
+//       "@next/next/no-script-component-in-head": "warn",
+//       "no-unreachable": "warn",
+//       "import/no-anonymous-default-export": "off",
+//       "react-hooks/rules-of-hooks": "warn"
+//   }
+// }
+{
+    "extends": ["next/babel","next/core-web-vitals"]
+  }

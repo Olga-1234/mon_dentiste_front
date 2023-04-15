@@ -1,0 +1,49 @@
+
+.container{
+    height: 80%;
+    width: 80%;
+}
+
+.width{
+    width: 200px !important;
+}
+
+
+.color{
+    color: #44B2A7 ;
+}
+
+
+@media (max-width : 600px) {
+    .respensive {
+     display: flex;
+     flex-direction: column;
+     height: auto;
+    
+    }
+    .respensiveCard1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .respensiveCard2{
+        display: flex;
+    justify-content:flex-end;
+        width: 100%; 
+    }
+}
+
+.bdbutton{
+    background: #44B2A7;
+    color: #FFFFFF !important;
+    border-radius: 10px !important; 
+    border: solid 1px #44B2A7 !important;
+    
+}
+.bdbutton:hover
+{
+    background:transparent;
+    color: #44B2A7 !important;
+
+}

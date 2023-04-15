@@ -1,0 +1,13 @@
+.ml280px {
+	margin-left: 80px;
+    height: 100vh;
+}
+.parent {
+	height: 100vh;
+}
+@media(max-width: 700px){
+	.responsivecard{
+		display: flex;
+		flex-direction: row;
+	}
+}

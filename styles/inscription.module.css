@@ -1,0 +1,63 @@
+.bordergreen{
+    border: solid 1px #44B2A7 !important;
+    background-color: transparent !important;
+
+}
+.bggreen{
+    background:#44B2A7 !important ;
+}
+.bordergreen:focus {
+    outline:  none !important;
+}
+.boxshadow{
+    
+    border: 1px solid #FFFFFF;
+box-shadow: 0px  0px 4px -1px rgba(0, 0, 0, 0.25);
+}
+.bordernone{
+    border:none !important;
+  
+  }
+  .bglight{
+    background: #ffff !important;
+  }
+  
+  
+  .bordernone:focus{
+    outline: none !important;
+  }
+.colorgrid{
+    color: #6d6e6b;
+}
+@media (max-width : 600px) {
+    .respensiveReverse {
+     display: flex;
+     flex-direction:column-reverse;
+     height: auto;
+    }
+    .respensive {
+        display: flex;
+        flex-direction:column;
+        height: auto;
+       }
+    .respensiveCard1{
+        display: flex;
+        justify-content: center;
+        width: 100%;   
+    }
+    .respensiveCard2{
+        display: flex;
+    justify-content:flex-end;
+        width: 100%; 
+    }
+    .respensivemargin{
+        margin-top: 50px;
+        
+    }
+    .respensivepadding{
+    padding-left: 15px ;
+    padding-right: 10px;
+    }
+}
+
+

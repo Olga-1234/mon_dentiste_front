@@ -1,0 +1,42 @@
+.cardWidth{
+    height: 300px;
+}
+.textrice{
+color: rgb(136, 132, 132);
+}
+.bgGreen{
+    background: linear-gradient(90deg, #44B298 0%, #44B3A7 0.01%, #44B3A7 0.02%, #44B3A7 0.03%, #0C0F0C 100%);
+    height: 40px;
+    margin: 0;
+    font-size: 12px;
+}
+.linkLogo {
+    color: #000;
+    font-family: 'Sail', cursive !important;
+    text-decoration: none;
+  }
+  .linkLogo:hover{
+      color: #000;
+
+  }
+.height{
+    height: auto;
+}
+
+.colorgreen{
+    color: #44B2A7 !important;
+
+}
+@media (max-width: 767px){
+    .dNone{
+        display:inline !important;
+    }
+    .dflex{
+        display: flex;
+        justify-content:  space-between;
+    }
+    .Rspb{
+        margin: 0 !important;
+        padding: 5% !important;
+    }
+}
