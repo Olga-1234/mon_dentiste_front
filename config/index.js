@@ -3,6 +3,8 @@
 // };
 
 export default {
-    api: 'http://localhost:5000/api'
+    api: 'https://mon-dentiste-api.onrender.com/api'
 };
+
+
 

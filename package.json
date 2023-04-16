@@ -11,7 +11,7 @@
     "lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx .",
     "validate": "npm-run-all --parallel check-format lint",
     "husky-install": "husky install",
-    "dev": "next dev -p 3010",
+    "dev": "next dev -p 3080",
     "start": "next start"
   },
   "keywords": [],
@@ -31,7 +31,6 @@
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.14.5",
     "@emotion/react": "^11.9.3",
-    
     "@headlessui/react": "^1.7.5",
     "@heroicons/react": "^2.0.13",
     "@hookform/resolvers": "^2.8.8",
@@ -40,15 +39,14 @@
     "@mui/styled-engine-sc": "^5.8.0",
     "@popperjs/core": "^2.11.4",
     "@reduxjs/toolkit": "^1.6.2",
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-less": "^1.0.1",
-    "@zeit/next-sass": "^1.0.1",
+
+   
+
+
     "axios": "^0.24.0",
     "bootstrap": "^5.0.0-beta3",
     "bootstrap-icons": "^1.8.1",
     "dateformat": "^5.0.3",
-    "eslint-config-next": "^12.1.6",
-    "eslint-plugin-testing-library": "^5.5.1",
     "lint-staged": "^13.0.1",
     "moment": "^2.29.4",
     "next": "^11.1.2",
