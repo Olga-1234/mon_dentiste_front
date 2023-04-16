@@ -11,7 +11,7 @@
     "lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx .",
     "validate": "npm-run-all --parallel check-format lint",
     "husky-install": "husky install",
-    "dev": "next dev -p 3080",
+    "dev": "next dev -p 3010",
     "start": "next start"
   },
   "keywords": [],
@@ -39,9 +39,6 @@
     "@mui/styled-engine-sc": "^5.8.0",
     "@popperjs/core": "^2.11.4",
     "@reduxjs/toolkit": "^1.6.2",
-
-   
-
 
     "axios": "^0.24.0",
     "bootstrap": "^5.0.0-beta3",
