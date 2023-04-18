@@ -34,7 +34,7 @@ this application has been realized with the help of the following technologies<b
 - see cabinet appointments
 - see appointments by users
 - add items
-- Make an appointmentck
+- Make an appointment
 
 ## Install
 To get the project running locally on your machine you need to have the following development tools installed:<br/>
